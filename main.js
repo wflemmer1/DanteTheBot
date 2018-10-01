@@ -23,6 +23,11 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 'Pong!'
                 });
             break;
+            case 'needy':
+                bot.sendMessage({
+                    to: channelID,
+                    message: " \"I\'m Homer, look at me i\'m sooooo coool\" <:SMURKYSPOOKED:472182354169823263>"
+                })
             // Just add any case commands if you want to..
          }
      }
