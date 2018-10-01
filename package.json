@@ -1,0 +1,11 @@
+{
+  "name": "DanteTheBot",
+  "version": "0.0.1",
+  "Description": "Mr. Alighieri himself",
+  "main": "main.js",
+  "author": "Saegax",
+  "dependencies": {
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "winston": "^3.1.0"
+  }
+}
